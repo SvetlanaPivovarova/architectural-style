@@ -1,11 +1,11 @@
-import architecture from "./../../assets/Architecture.png";
+import architecture from "../../assets/architecture.png";
 import { TEXTS } from "../../utils/constants";
 import "./Content.css";
 
 function Content({
   heading = TEXTS[0].heading,
   description = TEXTS[0].text,
-  img = architecture,
+  img = TEXTS[0].img,
 }) {
   return (
     <section className="content">
