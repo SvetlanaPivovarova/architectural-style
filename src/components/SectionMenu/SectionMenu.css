@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 176px;
+    width: calc(100% - 60px*2 - 759px - 758px);
 }
 
 .section-menu-list {
@@ -15,25 +15,30 @@
     color: var(--text-desabled);
     font-family: Roboto;
     margin: 0 0 32px 0;
+    display: block;
+    padding-bottom: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color var(--duration) ease;
 }
 
 .section-menu-item:last-of-type {
     margin-bottom: 0;
 }
 
+.section-menu-item:hover {
+    border-bottom: solid 9px var(--background-accent);
+
+}
+
 .section-menu-item_type_active {
-    display: block;
     color: var(--base-color);
     text-transform: uppercase;
     font-size: 14px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 0.57px;
-    padding-bottom: 2px;
-    background-color: var(--background-accent);
-    background-clip: padding-box;
-    background-position: bottom;
-    box-sizing: border-box;
+    border-bottom: solid 9px var(--background-accent);
 }
 
 

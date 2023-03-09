@@ -1,4 +1,3 @@
-import architecture from "../../assets/architecture.png";
 import { TEXTS } from "../../utils/constants";
 import "./Content.css";
 
