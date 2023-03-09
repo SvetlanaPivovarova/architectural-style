@@ -1,17 +1,39 @@
 .section-menu {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .section-menu-list {
-
+    list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-menu-item {
     color: var(--text-desabled);
     font-family: Roboto;
+    margin: 0 0 32px 0;
+}
+
+.section-menu-item:last-of-type {
+    margin-bottom: 0;
 }
 
 .section-menu-item_type_active {
+    display: block;
     color: var(--base-color);
     text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 0.57px;
+    padding-bottom: 2px;
+    background-color: var(--background-accent);
+    background-clip: padding-box;
+    background-position: bottom;
+    box-sizing: border-box;
 }
+
+
+
