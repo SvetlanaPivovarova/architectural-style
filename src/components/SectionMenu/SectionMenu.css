@@ -1,0 +1,17 @@
+.section-menu {
+
+}
+
+.section-menu-list {
+
+}
+
+.section-menu-item {
+    color: var(--text-desabled);
+    font-family: Roboto;
+}
+
+.section-menu-item_type_active {
+    color: var(--base-color);
+    text-transform: uppercase;
+}

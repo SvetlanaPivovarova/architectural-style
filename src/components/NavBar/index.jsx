@@ -20,7 +20,7 @@ function NavBar() {
         {navigationlinks.map((item, i) => (
           <li
             key={i}
-            onClick={() => onClickNavigation(i)} // создается анонимная функция, которая вызывает функцию onClickCategory() при клике
+            onClick={() => onClickNavigation(i)}
             className={
               isActiveNavigation === i
                 ? "navbar-item navbar-item_type_active"
