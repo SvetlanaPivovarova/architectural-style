@@ -1,0 +1,32 @@
+
+.page {
+    height: 100vh;
+    margin: 0 auto;
+    background-color: var(--background);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 25px 0 24px;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.logo-img {
+    width: 70px;
+    margin: 0 23px 0 0;
+}
+
+.header-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.29px;
+    margin: 0;
+    padding: 0;
+}

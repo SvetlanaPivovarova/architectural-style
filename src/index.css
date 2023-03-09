@@ -1,13 +1,23 @@
+@import url(./styles/vendor/normalize.css);
+@import url(./styles/vendor/fonts/fonts.css);
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Gilroy', 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.page {
-  height: 100vh;
-  margin: 0 auto;
+:root {
+  --base-color: #262525;
+  --background: #FFFFFF;
+  --background-alternative: #F0F0F0;
+  --background-accent: #EBD8CC;
+  --accent: #D88F5E;
+
+  --container-width: 90%;
+
+  --duration: 0.15s;
 }

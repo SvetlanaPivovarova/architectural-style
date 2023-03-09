@@ -1,0 +1,83 @@
+.header-info {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.29px;
+    margin: 0 122px 0 0;
+    padding: 0;
+}
+
+.burger-menu {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    background-color: var(--base-color);
+    margin: 25px 25px 0 27px;
+}
+.burger-menu_button{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 22px;
+    right: 21px;
+    width: 27px;
+    height: 27px;
+   transform: rotate(-45deg);
+
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.burger-menu_button > span,
+.burger-menu_button > span::before,
+.burger-menu_button > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--background);
+    transition-duration: .25s;
+    z-index: 2;
+}
+
+.burger-menu_button > span::before,
+.burger-menu_button > span::after {
+    width: 19px;
+    margin: 0 4px;
+}
+
+.burger-menu_button > span::before {
+    content: '';
+    top: -7px;
+
+}
+.burger-menu_button > span::after {
+    content: '';
+    top: 7px;
+}
+
+.menu__checkbox-pseudo{
+    opacity: 0;
+}
+
+.menu__checkbox-pseudo:checked ~ .burger-menu_button > span{
+    background-color: transparent
+}
+.menu__checkbox-pseudo:checked ~ .burger-menu_button > span::before{
+    top: 0;
+    transform: rotate(90deg);
+}
+.menu__checkbox-pseudo:checked ~ .burger-menu_button > span::after{
+    top: 0;
+    transform: rotate(180deg);
+}
+.menu__checkbox-pseudo:checked{
+    visibility: visible;
+    right: 0;
+}
