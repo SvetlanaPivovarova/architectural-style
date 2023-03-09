@@ -4,11 +4,11 @@ import HeaderMenu from "../HeaderMenu/index";
 
 function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <Logo />
       <NavBar />
       <HeaderMenu />
-    </div>
+    </header>
   );
 }
 
