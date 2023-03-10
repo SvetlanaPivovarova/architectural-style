@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.f2630186.css",
+    "main.js": "./static/js/main.582f96cf.js",
+    "static/media/security.png": "./static/media/security.e3f9048c3b546df8e1e8.png",
+    "static/media/infrastructure.png": "./static/media/infrastructure.fb86db7bf0a7f2e9a644.png",
+    "static/media/landscaping.png": "./static/media/landscaping.78ad08478593f6856a3f.png",
+    "static/media/transport-accessibility.png": "./static/media/transport-accessibility.443bd1aec8d5c9b7e313.png",
+    "static/media/architecture.png": "./static/media/architecture.6d9507b72c1d78d1d799.png",
+    "static/media/engineering.png": "./static/media/engineering.7ef13d55bd1c949acb48.png",
+    "static/media/Roboto-Regular.ttf": "./static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Light.ttf": "./static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "static/media/Gilroy-ExtraBold.otf": "./static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
+    "static/media/Gilroy-Light.otf": "./static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
+    "index.html": "./index.html",
+    "static/media/IconLogo.svg": "./static/media/IconLogo.4f49dd32ba4f9c5709e8f26d5ec6b623.svg",
+    "main.f2630186.css.map": "./static/css/main.f2630186.css.map",
+    "main.582f96cf.js.map": "./static/js/main.582f96cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2630186.css",
+    "static/js/main.582f96cf.js"
+  ]
+}
