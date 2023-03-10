@@ -1,35 +1,25 @@
 import React from "react";
 import "./SectionMenu.css";
 
-function SectionMenu() {
-  const [isActiveMenuLink, setIsActiveMenuLink] = React.useState(0);
-  const menuLinks = [
-    "Архитектура",
-    "Благоустройство",
-    "Безопасность",
-    "Инженерия",
-    "Инфраструктура",
-    "Транспортная доступность",
-  ];
-
+function SectionMenu({ items, isSelectedContent, setIsSelectedContent }) {
   const onClickMenuLink = (i) => {
-    setIsActiveMenuLink(i);
+    setIsSelectedContent(items[i]);
   };
 
   return (
     <nav className="section-menu">
       <ul className="section-menu-list">
-        {menuLinks.map((item, i) => (
+        {items.map((item, i) => (
           <li
             key={i}
             onClick={() => onClickMenuLink(i)}
             className={
-              isActiveMenuLink === i
+              isSelectedContent.id === i
                 ? "section-menu-item section-menu-item_type_active"
                 : "section-menu-item"
             }
           >
-            {item}
+            {item.heading}
           </li>
         ))}
       </ul>
