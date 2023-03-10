@@ -9,17 +9,20 @@
     list-style: none;
     display: flex;
     flex-direction: column;
+    align-self: center;
 }
 
 .section-menu-item {
     color: var(--text-desabled);
     font-family: Roboto;
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: 0.57px;
     margin: 0 0 32px 0;
-    display: block;
-    padding-bottom: 2px;
+    padding: 0 4px 2px;
     box-sizing: border-box;
     cursor: pointer;
-    transition: background-color var(--duration) ease;
+    transition: border-bottom var(--duration) ease;
 }
 
 .section-menu-item:last-of-type {
@@ -28,8 +31,8 @@
 
 .section-menu-item:hover {
     border-bottom: solid 9px var(--background-accent);
-
 }
+
 
 .section-menu-item_type_active {
     color: var(--base-color);
@@ -40,6 +43,7 @@
     letter-spacing: 0.57px;
     border-bottom: solid 9px var(--background-accent);
 }
+
 
 
 
