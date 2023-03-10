@@ -1,6 +1,7 @@
 import Logo from "../Logo/index";
 import NavBar from "../NavBar/index";
 import HeaderMenu from "../HeaderMenu/index";
+import "./Header.css";
 
 function Header() {
   return (
