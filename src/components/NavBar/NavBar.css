@@ -17,7 +17,7 @@
     text-transform: uppercase;
     letter-spacing: 0.8px;
     cursor: pointer;
-    transition: border-bottom .3s ease;
+    transition: border-bottom var(--duration) ease;
 }
 
 .navbar-item:last-of-type {

@@ -1,0 +1,50 @@
+.content {
+
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content-info {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    background-color: var(--background-alternative);
+    height: 100%;
+    max-width: 759px;
+    padding: 0 20px 0 60px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content-heading {
+    font-size: 44px;
+    line-height: 53.2px;
+    letter-spacing: -0.03px;
+    font-weight: 700;
+    padding: 0;
+    margin: 326px 0 41px 0;
+}
+
+.content-text {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02px;
+    max-width: 435px;
+    height: 90px;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    margin: 0 0 151px 0;
+}
+
+.content-pagination {
+
+}
+
+.content-illustration {
+    width: 757px;
+}
